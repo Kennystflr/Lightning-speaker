@@ -1,2 +1,3 @@
-SGTL5000 : 1.62V to 3.6V
-
+SGTL5000 : 1.62V to 3.6V.
+4 Batteries 18650 de 3.6V ; 2500 mAh.
+2 en série, 2 en parallèle.
