@@ -1,0 +1,31 @@
+Fabriquer une carte électronique pour remplacer celle du speaker de base (+ de prises Jack).
+On a 2 haut parleur 8 Ohm 15W dans un caisson avec un ruban led (dont on ne connaît pas les spécificités )
+
+Sous-systèmes :
+A)Amplificateur audio -> Class-D mosfet drivers
+B) Cellule de régulation de tension 
+C)Circuit de charge de la batterie 7.8V (2* [3.4V,1200mAh] en série )
+D) IC TFA9879HN pour avoir pleins de features -> Eq Multiband …
+
+Sous-système A : 
+Avoir 1 jack 3.5 et un jack 6.35 en entrée
+On a deux speakers 8 Ohm en parallèle donc une charge de 4 Ohms.
+Donc à 15 W, V_Load_Max = 7,75V # V_Bat
+
+Etage fait, reste a définir les valeurs des composants, puis à les choisir.
+
+ Sous-Système B :
+LM317 : Comme dans le schéma ci contre avec les potentiomètres que j'ai récupérés vont jusqu'à 2kOhms. Pour varier l'intensité sonore.
+
+
+Sous-système C : 
+Charge comme ci il ne s’agissait que d’une batterie. Avec IC de charge normal en >500 mA
+
+
+Sous système D : 
+
+Utiliser un ADC en amont entre les entrées jack et l’étage amplificateur.
+TFA9879HN en QFN24...
+Plus tard, Equalization … bass boosts …
+
+TL072
