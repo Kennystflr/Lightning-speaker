@@ -22,7 +22,7 @@ Pour appliquer des modifications au signal analogique d'entrée, on utilise le C
 //////////////////////////////////////////////////////////////////////////////////////////////////////
 Sous-système C : 
 La batterie est pour l'instant composée de deux cellules 18650(3.6V, 2600mAh) en série.
-Charge USB C-> Puce Power delivery + BMS IC : BQ25798 
+Charge USB C -> Puce Power delivery : TPS25730 + BMS IC : BQ25798 
 on mettra juste un port usb c avec tout ça.
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////
