@@ -1,0 +1,34 @@
+Fabriquer une carte électronique pour remplacer celle du speaker de base (+ de prises Jack).
+On a 2 haut parleur 8 Ohm 15W dans un caisson avec un ruban led (dont on ne connaît pas les spécificités )
+
+Sous-systèmes :
+A)Amplificateur audio -> Class-D -> mosfet drivers
+B) CODEC Audio 
+C)Circuit de charge de la batterie 7.2V (2* [3.6V,2600mAh] en série ) <- voir si on double le nombre de batteries pour les mettre en parallèle
+D) Circuit pour le ruban led.
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+Sous-système A : 
+Avoir 1 jack 3.5 et un jack 6.35 en entrée
+On a deux speakers 8 Ohm en parallèle donc une charge de 4 Ohms.
+Donc à 15 W, V_Load_Max = 7,75V # V_Bat
+Pour faire fonctionner les diffénents composants de l'amplificateur (Mosfet driver,Timer 555, AOPs ...), on a besoin d'un régulateur de tension 5V d'où le LM7805.
+
+Etage Schématisé, reste a vérifier les valeurs des composants, puis à les choisir.
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+ Sous-Système B :
+Pour appliquer des modifications au signal analogique d'entrée, on utilise le CODEC Audio SGTL5000. On utilisera les features d'equalisation (PEQ ou GEQ), controle du niveau de volume et bass boost.
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+Sous-système C : 
+La batteries est pour l'instant composée de deux cellules 18650(3.6V, 2600mAh) en série.
+Charge USB C-> Puce Power delivery + BMS IC : BQ25798 
+on mettra juste un port usb c avec tout ça.
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+Sous-système D :
+Voir technologie Neopixel : https://github.com/berndoJ/libneopixel32/tree/master
+
+
+
+
