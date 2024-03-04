@@ -1,5 +1,5 @@
 Fabriquer une carte électronique pour remplacer celle du speaker de base (+ de prises Jack).
-On a 2 haut parleur 8 Ohm 15W dans un caisson avec un ruban led (dont on ne connaît pas les spécificités )
+On a 2 haut parleur 2 Ohm 15W dans un caisson avec un ruban led (dont on ne connaît pas les spécificités )
 
 Sous-systèmes :
 A)Amplificateur audio -> Class-D -> mosfet drivers
@@ -10,7 +10,7 @@ D) Circuit pour le ruban led.
 //////////////////////////////////////////////////////////////////////////////////////////////////////
 Sous-système A : 
 Avoir 1 jack 3.5 et un jack 6.35 en entrée
-On a deux speakers 8 Ohm en parallèle donc une charge de 4 Ohms.
+On a deux speakers 2 Ohm en parallèle donc une charge de 1 Ohms.
 Donc à 15 W, V_Load_Max = 7,75V # V_Bat
 Pour faire fonctionner les diffénents composants de l'amplificateur (Mosfet driver,Timer 555, AOPs ...), on a besoin d'un régulateur de tension 5V d'où le LM7805.
 
