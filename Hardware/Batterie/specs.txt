@@ -1,6 +1,7 @@
-SGTL5000 : 1.62V to 3.6V.
-STM32G431KB : 3.3 V.
+CODEC : "SGTL5000" : 3.3 V.
+STM32 : "STM32G431KB" : 3.3 V.
+Mosfet driver : "NCP81145" : 5 V.
 
-2 Batteries 18650 de 3.6V ; 2500 mAh.
+2 Batteries 18650 de 3.6V ; 2500 mAh. -> 7.2 V
 En série.
-BMS : puce BQ25798.
+Battery Management System : puce "BQ25798".
