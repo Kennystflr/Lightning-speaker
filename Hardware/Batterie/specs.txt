@@ -1,3 +1,6 @@
 SGTL5000 : 1.62V to 3.6V.
-4 Batteries 18650 de 3.6V ; 2500 mAh.
-2 en série, 2 en parallèle.
+STM32G431KB : 3.3 V.
+
+2 Batteries 18650 de 3.6V ; 2500 mAh.
+En série.
+BMS : puce BQ25798.
