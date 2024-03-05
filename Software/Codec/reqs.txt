@@ -1,0 +1,5 @@
+On a besoin d'encoder précisément  : 
+ - 1 potentio de Volume control : 
+ - (1 bouton poussoir bass enhancement) :
+ - 4 potentio pour l'EQ (1 bass + 1 high + 1 choix freq + 1 freq level) :
+ 
