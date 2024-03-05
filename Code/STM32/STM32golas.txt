@@ -1,0 +1,5 @@
+On implémente dans la puce :
+ - USB C power delivery
+ - Encondage des potentiometres de réglage du codec en hexadecimal.
+ - Renvoie des réglages potentiomètre vers le codec en protocole I2C.
+ - Sortie audio du Codec via le protocole I2S.
