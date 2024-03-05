@@ -1,5 +1,12 @@
+Tous les mots sont sur 16 bits et si pas besoin de tout les bits les derniers bits sont reservés.
 On a besoin d'encoder précisément  : 
- - 1 potentio de Volume control : 
- - (1 bouton poussoir bass enhancement) :
- - 4 potentio pour l'EQ (1 bass + 1 high + 1 choix freq + 1 freq level) :
+ - 1 potentio de Volume control : DAP_MAIN_CHAN 0x0120 -> 0x0000 to 0xFFFF
+ - (1 bouton poussoir bass enhancement) : 
+ - 4 potentio pour le PEQ (1 bass + 1 high + 1 choix freq + 1 freq level) : Pour passer en PEQ  mettre-> int* DAP_AUDIO_EQ = 0x0001; int* DAP_PEQ = 0x0102;
+   - Bass : 
+   -
+   -
+   -
  
+TUTO I2C : https://wiki.st.com/stm32mcu/wiki/Getting_started_with_I2C ->  Nous on sera surement en blocking mode...
+Projet de Mr Fiack avec le CODEC : https://github.com/lfiack/ENSEA_1D_audio_iface
