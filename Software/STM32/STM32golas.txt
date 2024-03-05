@@ -9,3 +9,4 @@ On implémente dans la puce :
 
 
 Tuto PWM generation : https://deepbluembedded.com/stm32-pwm-example-timer-pwm-mode-tutorial/?utm_content=cmp-true
+Wiki I2C protocol : TUTO I2C : https://wiki.st.com/stm32mcu/wiki/Getting_started_with_I2C ->  Nous on sera surement en blocking mode...
