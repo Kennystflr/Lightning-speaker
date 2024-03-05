@@ -1,0 +1,7 @@
+Choix de la puce SMT32g431kb6.
+On en a besoin pour implémenter pas mal de choses à la fois et l'on a qu'un format LQFP32 soit 32 pins.
+On implémente dans la puce :
+ - USB C power delivery
+ - Encondage des potentiometres de réglage du codec en hexadecimal.
+ - Renvoie des réglages potentiomètre vers le codec en protocole I2C.
+ - Sortie audio du Codec via le protocole I2S.
