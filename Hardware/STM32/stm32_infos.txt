@@ -5,4 +5,4 @@ On implémente dans la puce :
  - Encondage des potentiometres de réglage du codec en hexadecimal.
  - Renvoie des réglages potentiomètre vers le codec en protocole I2C.
  - Reception du signal audio modifié par le codec via le protocole I2S.
- - Sortie PWM du Codec.
+ - Sortie PWM du signal du codec Vers l'etage amplificateur avec un Timer.
