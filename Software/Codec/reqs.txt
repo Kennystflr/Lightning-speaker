@@ -10,3 +10,9 @@ On a besoin d'encoder précisément  :
  
 TUTO I2C : https://wiki.st.com/stm32mcu/wiki/Getting_started_with_I2C ->  Nous on sera surement en blocking mode...
 Projet de Mr Fiack avec le CODEC : https://github.com/lfiack/ENSEA_1D_audio_iface
+on a des sgtl5000 qfn20
+note d'utilisation : pour utiliser l'I2C, connecter CTRL_MODE pin à la masse
+l'adresse I2C est 0001010 (W/R)=(write/read)
+CTRL_CLK est dirigé par la stm32
+pour utiliser le 7-band PEQ mode; Write DAP_AUDIO_EQ 0x0001
+                                  Write DAP_PEQ 0x0007
