@@ -3,6 +3,7 @@ On en a besoin pour implémenter pas mal de choses à la fois et l'on a qu'un fo
 On implémente dans la puce :
  - USB C power delivery
  - Encondage des potentiometres de réglage du codec en hexadecimal.
+     . 12bits en entree, on choisit 128 valeurs 
  - Renvoie des réglages potentiomètre vers le codec en protocole I2C.
  - Reception du signal audio modifié par le codec via le protocole I2S.
  - Sortie PWM du signal du codec Vers l'etage amplificateur avec un Timer.
