@@ -1,6 +1,7 @@
-TL072
 Batteries 18650 : https://www.nkon.nl/fr/samsung-18650-inr18650-25r.html?srsltid=AfmBOoramL8cwcA72FS8C4zYziiJKS26hBCwNHvCdxvqd3XyiMFjiiUtQsM
-LM7833
-LM7805
-Mosfet driver - HIP2101 : https://fr.rs-online.com/web/p/pilotes-de-grille/1968875
-USB C Power Delivery - TPS25730 : https://www.ti.com/product/TPS25730?login-check=true#order-quality
+Regulateur de tension - LM7833 :  
+Regulateur de tension - LM7805 : 
+Mosfet driver - UCC27325 : 
+Mosfet - Si2304 :
+USB C Power Delivery - Tcpp01-m12 : 
+BMS - BQ25306 : 
