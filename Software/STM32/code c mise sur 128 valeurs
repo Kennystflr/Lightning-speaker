@@ -1,0 +1,8 @@
+int partitionpotar(int in12bits){
+	int nombrevaleurs=32; //donne le nombre de valeurs entre 2 niveaux
+	for(int multiple=0;multiple<128;multiple++){
+		if(in12bits>multiple-1 && in12bits<multiple+32){
+			return multiple;
+		}
+	}
+}
