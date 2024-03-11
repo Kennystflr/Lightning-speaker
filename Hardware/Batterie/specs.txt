@@ -4,4 +4,4 @@ Mosfet driver : "UCC2732x" : 5 V.
 
 2 Batteries 18650 de 3.6V ; 2500 mAh. -> 7.2 V
 En série.
-Battery Management System : puce "BQ25798".
+Battery Management System : puce "BQ25306".
