@@ -1,5 +1,5 @@
 CODEC : "SGTL5000" : 3.3 V.
-STM32 : "STM32G431KB" : 3.3 V.
+STM32 : "STM32G491CET6" : 3.3 V.
 Mosfet driver : "UCC2732x" : 5 V.
 
 2 Batteries 18650 de 3.6V ; 2500 mAh. -> 7.2 V
