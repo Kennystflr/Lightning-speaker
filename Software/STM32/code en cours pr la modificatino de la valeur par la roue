@@ -1,0 +1,38 @@
+#include <stdio.h>
+int main()
+{
+    
+    modificationvaleur((1,850),1,0);
+
+    return 0;
+}
+struct Tuple {int choixfrequence; int frequenceactuel;};
+struct Tuple modificationvaleur(struct Tuple, int signalA, int signalB);
+struct Tuple modificationvaleur(struct Tuple, int signalA, int signalB){
+    int difffrequence=0;
+    struct Tuple couple;
+    switch(couple.choixfrequence){
+        case 0 :
+            difffrequence=700/50;
+            break;
+        case 1 :
+            difffrequence=2100/50;
+            break;
+        case 2 :
+            difffrequence=6000/50;
+            break;
+        case 3 :
+            difffrequence=8000/50;
+            break;
+    }
+    if(signalA==1){ //on suppose que si B est en retard, on tourne ds le sens horaire
+        if(signalB==0){
+            couple.frequenceactuel=couple.frequenceactuel+difffrequence;
+            printf(couple.frequenceactuel);
+        }
+        else{
+            couple.frequenceactuel=couple.frequenceactuel-difffrequence;
+            printf(couple.frequenceactuel);
+        }
+    }
+}
