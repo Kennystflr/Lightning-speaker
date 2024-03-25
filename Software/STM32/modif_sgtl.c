@@ -137,7 +137,7 @@ void modif_volume(param_sgtl_t * param_son, int in12bits){
 void GPIO_Init(void);
 
 // Fonction principale
-int ChangementEtat(int etat)
+void ChangementEtat(param_sgtl_t * param_son)
 {
     // Initialisation de la librairie HAL (Hardware Abstraction Layer)
     HAL_Init();
@@ -145,29 +145,26 @@ int ChangementEtat(int etat)
     // Configuration des GPIO
     GPIO_Init();
 
-    while (1)
-    {
         if(HAL_GPIO_ReadPin(GPIOC, GPIO_PIN_13) == GPIO_PIN_RESET) {
             // Le bouton est enfoncé
-            switch(etat)
+            switch(param_son.band_mod)
             {
+                case 0:
+                	while(HAL_GPIO_ReadPin(GPIOC, GPIO_PIN_13) == GPIO_PIN_RESET){}
+			return 1;
                 case 1:
                 	while(HAL_GPIO_ReadPin(GPIOC, GPIO_PIN_13) == GPIO_PIN_RESET){}
-					return 2;
+                	return 2;
                 case 2:
                 	while(HAL_GPIO_ReadPin(GPIOC, GPIO_PIN_13) == GPIO_PIN_RESET){}
                 	return 3;
                 case 3:
                 	while(HAL_GPIO_ReadPin(GPIOC, GPIO_PIN_13) == GPIO_PIN_RESET){}
-                	return 4;
-                case 4:
-                	while(HAL_GPIO_ReadPin(GPIOC, GPIO_PIN_13) == GPIO_PIN_RESET){}
-                	return 1;
+                	return 0;
             }
         } else {
             // Le bouton n'est pas enfoncé
         }
-    }
 }
 
 
