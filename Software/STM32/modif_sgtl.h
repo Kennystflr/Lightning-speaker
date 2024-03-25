@@ -1,10 +1,10 @@
-#include <stdio.h>
+#ifndef _project_h
+#define _project_h
 
 typedef struct param_sgtl_struct 
 {   
     int volume;
     int band_mod;
-    int encoder;
     int band0_freq; 
     int band0_gain;
     int band1_freq; 
@@ -15,4 +15,7 @@ typedef struct param_sgtl_struct
     int band3_gain;
 } param_sgtl_t;
 
-void modificationvaleur(param_sgtl_t * param_sgtl, int signalA, int signalB);
+void ini_valeur_default(void);
+int modif_volume(param_sgtl_t *,int);
+void modif_valeur(param_sgtl_t *,int,int);
+void modif_gain(param_sgtl_t *,int,int);
