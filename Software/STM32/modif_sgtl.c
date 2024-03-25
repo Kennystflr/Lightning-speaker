@@ -1,5 +1,5 @@
 #include "project.h"    
-#include <stm32l4xx_hal.h>
+#include <stm32l4xx_hal.h> // a changer en fct de la stm
 extern UART_HandleTypeDef huart2;
 
 void init_valeur_default(){
