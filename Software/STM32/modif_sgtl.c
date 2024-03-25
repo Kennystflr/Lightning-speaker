@@ -1,4 +1,6 @@
 #include "project.h"    
+#include <stm32l4xx_hal.h>
+extern UART_HandleTypeDef huart2;
 
 void init_valeur_default(){
     param_son.band0_freq=450;
@@ -126,3 +128,63 @@ void modif_volume(param_sgtl_t * param_son, int in12bits){
 		}
 	}
 }
+
+
+//Gestion bouton
+
+
+// Déclaration de la fonction de configuration des GPIO
+void GPIO_Init(void);
+
+// Fonction principale
+int ChangementEtat(int etat)
+{
+    // Initialisation de la librairie HAL (Hardware Abstraction Layer)
+    HAL_Init();
+
+    // Configuration des GPIO
+    GPIO_Init();
+
+    while (1)
+    {
+        if(HAL_GPIO_ReadPin(GPIOC, GPIO_PIN_13) == GPIO_PIN_RESET) {
+            // Le bouton est enfoncé
+            switch(etat)
+            {
+                case 1:
+                	while(HAL_GPIO_ReadPin(GPIOC, GPIO_PIN_13) == GPIO_PIN_RESET){}
+					return 2;
+                case 2:
+                	while(HAL_GPIO_ReadPin(GPIOC, GPIO_PIN_13) == GPIO_PIN_RESET){}
+                	return 3;
+                case 3:
+                	while(HAL_GPIO_ReadPin(GPIOC, GPIO_PIN_13) == GPIO_PIN_RESET){}
+                	return 4;
+                case 4:
+                	while(HAL_GPIO_ReadPin(GPIOC, GPIO_PIN_13) == GPIO_PIN_RESET){}
+                	return 1;
+            }
+        } else {
+            // Le bouton n'est pas enfoncé
+        }
+    }
+}
+
+
+// Fonction de configuration des GPIO
+void GPIO_Init(void)
+{
+	// Structure de configuration des GPIO
+	    GPIO_InitTypeDef GPIO_InitStruct;
+
+	// Activer le périphérique GPIOC
+	    __HAL_RCC_GPIOC_CLK_ENABLE();
+
+	// Configurer le GPIO comme entrée avec pull-up
+	    GPIO_InitStruct.Pin = GPIO_PIN_13;
+	    GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
+	    GPIO_InitStruct.Pull = GPIO_PULLUP;
+	    GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+	    HAL_GPIO_Init(GPIOC, &GPIO_InitStruct);
+}
+
