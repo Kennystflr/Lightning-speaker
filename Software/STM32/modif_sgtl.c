@@ -84,7 +84,6 @@ void modif_gain(param_sgtl_t * param_son, int signalA, singal B){
             break;
 
         case 1 :
-            difffrequence=2200/50;
             if(signalA==1){ //on suppose que si B est en retard, on tourne ds le sens horaire
                 if(signalB==0){
                     *param_son.band1_gain=*param_son.band1_gain+1;
@@ -96,7 +95,6 @@ void modif_gain(param_sgtl_t * param_son, int signalA, singal B){
             break;
 
         case 2 :
-            difffrequence=5000/50;
             if(signalA==1){ //on suppose que si B est en retard, on tourne ds le sens horaire
                 if(signalB==0){
                     *param_son.band2_gain=*param_son.band2_gain+1;
@@ -108,7 +106,6 @@ void modif_gain(param_sgtl_t * param_son, int signalA, singal B){
             break;
 
         case 3 :
-            difffrequence=8000/50;
             if(signalA==1){ //on suppose que si B est en retard, on tourne ds le sens horaire
                 if(signalB==0){
                     *param_son.band3_gain=*param_son.band3_gain+1;
@@ -122,7 +119,7 @@ void modif_gain(param_sgtl_t * param_son, int signalA, singal B){
 }
 
 void modif_volume(param_sgtl_t * param_son, int in12bits){
-	int nombrevaleurs=4096/128;
+	int nombrevaleurs=(int)(0.6*4096/128);
 	for(int multiple=0; multiple<128; multiple++){
 		if(in12bits>nombrevaleurs*multiple-1 && in12bits < nombrevaleurs * multiple + nombrevaleurs){
 			*param_son.volume=multiple;
