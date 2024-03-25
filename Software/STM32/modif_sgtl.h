@@ -1,5 +1,6 @@
 #ifndef _project_h
 #define _project_h
+#include <stdio.h>
 
 typedef struct param_sgtl_struct 
 {   
@@ -19,3 +20,5 @@ void ini_valeur_default(void);
 int modif_volume(param_sgtl_t *,int);
 void modif_valeur(param_sgtl_t *,int,int);
 void modif_gain(param_sgtl_t *,int,int);
+int ChangementEtat(param_sgtl_t*);
+
