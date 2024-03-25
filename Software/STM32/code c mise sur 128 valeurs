@@ -1,8 +1,0 @@
-int partitionpotar(int in12bits, int n){
-	int nombrevaleurs=4096/n;
-	for(int multiple=0;multiple<n;multiple++){
-		if(in12bits>nombrevaleurs*multiple-1 && in12bits<nombrevaleurs*multiple+nombrevaleurs){
-			return multiple;
-		}
-	}
-}
