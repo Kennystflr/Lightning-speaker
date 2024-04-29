@@ -1,0 +1,8 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "my_lib")(type "KiCad")(uri "${KIPRJMOD}/my_lib.kicad_sym")(options "")(descr ""))
+  (lib (name "BQ25")(type "KiCad")(uri "${KIPRJMOD}/BQ25.kicad_sym")(options "")(descr ""))
+  (lib (name "Bq25ledeux")(type "KiCad")(uri "${KIPRJMOD}/Bq25ledeux.kicad_sym")(options "")(descr ""))
+  (lib (name "UCC27325DR")(type "KiCad")(uri "${KIPRJMOD}/UCC27325DR.kicad_sym")(options "")(descr ""))
+  (lib (name "USBBLC6-2SC6")(type "KiCad")(uri "${KIPRJMOD}/USBBLC6-2SC6.kicad_sym")(options "")(descr ""))
+)
