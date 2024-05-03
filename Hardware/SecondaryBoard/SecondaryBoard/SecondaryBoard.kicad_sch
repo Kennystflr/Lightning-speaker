@@ -905,6 +905,108 @@
 				)
 			)
 		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "WITNS_EURORACK:ENCODER-RGB-SWITCH"
 			(pin_numbers hide)
 			(pin_names
@@ -2046,108 +2148,6 @@
 				)
 			)
 		)
-		(symbol "power:PWR_FLAG"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#FLG"
-				(at 0 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "PWR_FLAG"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Special symbol for telling ERC where power comes from"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "flag power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "PWR_FLAG_0_0"
-				(pin power_out line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-		)
-	)
-	(junction
-		(at 130.81 161.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "25043f2f-5766-4c98-a86d-62e339e8e1b6")
 	)
 	(junction
 		(at 105.41 113.03)
@@ -2174,6 +2174,12 @@
 		(uuid "6afb9b08-cc3c-4bb7-96c1-2949c864d951")
 	)
 	(junction
+		(at 217.17 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "82b5367a-c456-495e-808c-c47c475faa9e")
+	)
+	(junction
 		(at 130.81 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2190,6 +2196,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aec99446-de51-452b-badd-48faf6a7efee")
+	)
+	(junction
+		(at 217.17 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "be73d4f6-956d-49da-8f28-4756ae164b32")
 	)
 	(junction
 		(at 52.07 119.38)
@@ -2251,6 +2263,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 90.17) (xy 217.17 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15a53805-6b8c-437e-9a5a-edf4b57fa0d4")
+	)
+	(wire
+		(pts
 			(xy 140.97 149.86) (xy 144.78 149.86)
 		)
 		(stroke
@@ -2258,6 +2280,16 @@
 			(type default)
 		)
 		(uuid "1a3b30a8-4435-4bbb-ad79-85fc15145ee9")
+	)
+	(wire
+		(pts
+			(xy 217.17 100.33) (xy 217.17 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "202c7c99-1bf2-4d0a-9a87-915c13010708")
 	)
 	(wire
 		(pts
@@ -2281,6 +2313,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 160.02) (xy 130.81 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31c3b87f-0879-4a91-924c-9ce5c6089b24")
+	)
+	(wire
+		(pts
 			(xy 130.81 139.7) (xy 129.54 139.7)
 		)
 		(stroke
@@ -2288,16 +2330,6 @@
 			(type default)
 		)
 		(uuid "36c12fb6-7281-49a0-8e10-0c2838a00458")
-	)
-	(wire
-		(pts
-			(xy 130.81 161.29) (xy 130.81 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3879ca80-8319-409f-b071-8e0e6a753884")
 	)
 	(wire
 		(pts
@@ -2351,6 +2383,16 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 90.17) (xy 217.17 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61f44a88-0e7d-4f9c-8077-e46d057d1e29")
+	)
+	(wire
+		(pts
 			(xy 130.81 152.4) (xy 130.81 149.86)
 		)
 		(stroke
@@ -2398,6 +2440,16 @@
 			(type default)
 		)
 		(uuid "6c29d0cf-73b7-41e0-8281-fe10ad396c73")
+	)
+	(wire
+		(pts
+			(xy 217.17 95.25) (xy 217.17 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "727598fe-b104-4b86-a0bf-f9293a815d74")
 	)
 	(wire
 		(pts
@@ -2481,6 +2533,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 100.33) (xy 219.71 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98a48e5d-2704-4b11-9bec-01607e6a2f47")
+	)
+	(wire
+		(pts
 			(xy 45.72 110.49) (xy 52.07 110.49)
 		)
 		(stroke
@@ -2518,6 +2580,16 @@
 			(type default)
 		)
 		(uuid "b083bf80-c073-4238-a6f7-68aaf22530eb")
+	)
+	(wire
+		(pts
+			(xy 217.17 95.25) (xy 219.71 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4a38791-2101-44ec-ba50-4df2e80ac106")
 	)
 	(wire
 		(pts
@@ -2677,6 +2749,18 @@
 		)
 		(uuid f08029ee-d018-4496-a232-bfed8cb17f47)
 	)
+	(rectangle
+		(start 207 79.5)
+		(end 250.5 125)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid fbd63fc7-9da5-4342-9102-9d968d1b80e1)
+	)
 	(text "Connecteurs\n"
 		(exclude_from_sim no)
 		(at 75.565 21.59 0)
@@ -2716,6 +2800,17 @@
 			)
 		)
 		(uuid "cff5ab0c-7078-4a04-bb73-dd178122886a")
+	)
+	(text "Mounting holes"
+		(exclude_from_sim no)
+		(at 223.52 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f28a6c96-cd1b-4562-8f00-eadb821816dd")
 	)
 	(global_label "band1"
 		(shape input)
@@ -3402,6 +3497,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 222.25 95.25 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0bf6dddd-fc4b-4605-8ebc-078b090d6677")
+		(property "Reference" "H2"
+			(at 226.695 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 226.695 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 222.25 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 222.25 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 222.25 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "75b82b11-77d6-49be-b4c4-39b945c95de1")
+		)
+		(instances
+			(project "SecondaryBoard"
+				(path "/7eb8c880-3fa3-4106-a681-944921b151f8"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 49.53 53.34 0)
 		(unit 1)
@@ -3492,7 +3654,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm"
 			(at 34.29 116.84 0)
 			(effects
 				(font
@@ -3560,7 +3722,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ENCODER_LED_3"
+		(property "Footprint" "WITNS:ENCODER_LED_3"
 			(at 121.92 93.98 0)
 			(effects
 				(font
@@ -3761,6 +3923,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 222.25 100.33 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "332b4b0c-fc5e-4b52-8627-9053338a74c0")
+		(property "Reference" "H3"
+			(at 226.695 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 226.695 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 222.25 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 222.25 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 222.25 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2d0a3704-e8f3-48e1-ae3d-da3c6d209ce0")
+		)
+		(instances
+			(project "SecondaryBoard"
+				(path "/7eb8c880-3fa3-4106-a681-944921b151f8"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 158.75 50.8 180)
 		(unit 1)
@@ -3855,7 +4084,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 95.25 146.558 90)
 			(effects
 				(font
@@ -4527,7 +4756,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 140.97 112.268 90)
 			(effects
 				(font
@@ -4564,73 +4793,6 @@
 			(project "SecondaryBoard"
 				(path "/7eb8c880-3fa3-4106-a681-944921b151f8"
 					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 130.81 161.29 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "63413b2f-bc74-4ccd-a5e2-f8fc24d6a0f2")
-		(property "Reference" "#FLG01"
-			(at 128.905 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 127 161.2899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 130.81 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 130.81 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 130.81 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "031951ef-0892-4e6c-8a6d-9042fb914246")
-		)
-		(instances
-			(project "SecondaryBoard"
-				(path "/7eb8c880-3fa3-4106-a681-944921b151f8"
-					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -4865,7 +5027,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 95.25 141.478 90)
 			(effects
 				(font
@@ -5064,7 +5226,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 41.91 133.858 90)
 			(effects
 				(font
@@ -5132,7 +5294,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ENCODER_LED_3"
+		(property "Footprint" "WITNS:ENCODER_LED_3"
 			(at 114.3 158.75 0)
 			(effects
 				(font
@@ -5429,7 +5591,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 41.91 112.268 90)
 			(effects
 				(font
@@ -5496,7 +5658,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 41.91 122.682 90)
 			(effects
 				(font
@@ -5768,7 +5930,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm"
 			(at 34.29 124.46 0)
 			(effects
 				(font
@@ -6011,6 +6173,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 217.17 104.14 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b5f238b5-0941-4ebf-b67e-84ef2365fad5")
+		(property "Reference" "#PWR04"
+			(at 217.17 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 217.17 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.17 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 217.17 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4b6205a1-80af-46c0-9332-0557f7992b94")
+		)
+		(instances
+			(project "SecondaryBoard"
+				(path "/7eb8c880-3fa3-4106-a681-944921b151f8"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 140.97 107.95 90)
 		(unit 1)
@@ -6035,7 +6263,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 140.97 109.728 90)
 			(effects
 				(font
@@ -6102,7 +6330,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 41.91 118.618 90)
 			(effects
 				(font
@@ -6139,6 +6367,73 @@
 			(project "SecondaryBoard"
 				(path "/7eb8c880-3fa3-4106-a681-944921b151f8"
 					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 222.25 90.17 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c122d166-4307-43d7-ba5d-70d08dc525c2")
+		(property "Reference" "H1"
+			(at 226.695 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 226.695 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 222.25 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 222.25 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 222.25 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "198091fb-0f44-48a0-86d6-8c1bbe634699")
+		)
+		(instances
+			(project "SecondaryBoard"
+				(path "/7eb8c880-3fa3-4106-a681-944921b151f8"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -6544,7 +6839,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 34.29 110.49 0)
 			(effects
 				(font
@@ -6678,7 +6973,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm"
 			(at 34.29 132.08 0)
 			(effects
 				(font
