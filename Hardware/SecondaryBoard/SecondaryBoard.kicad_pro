@@ -465,7 +465,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "SecondaryBoard-backups/",
+      "plot": "SecondaryBoard-backups/Gerber/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
