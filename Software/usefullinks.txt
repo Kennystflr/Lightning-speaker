@@ -1,0 +1,10 @@
+Flash memory to store the settings between use of the speaker :
+https://www.st.com/resource/en/product_training/STM32G4-Memory-Flash_FLASH.pdf
+
+Examples of USB C power Delivery implementation :
+https://github.com/STMicroelectronics/STM32CubeG4/tree/master/Projects/B-G474E-DPOW1/Applications/USB-PD/USB-PD_Consumer_1port
+https://www.youtube.com/watch?v=-vsJhNIaHxE
+
+SGTL5000 audio codec implementation :
+https://github.com/PaulStoffregen/Audio/blob/master/control_sgtl5000.cpp#L977
+
