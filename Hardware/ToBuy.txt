@@ -1,4 +1,4 @@
-Batteries 18650 : https://www.nkon.nl/fr/samsung-18650-inr18650-25r.html?srsltid=AfmBOoramL8cwcA72FS8C4zYziiJKS26hBCwNHvCdxvqd3XyiMFjiiUtQsM
+Batteries 18650 : "https://www.nkon.nl/fr/samsung-inr18650-25r-with-u-tags.html?srsltid=AfmBOoq5qeEpbhHpFQUx_pw4D_jy1cSAoZQ30zU4rYdqalyjseHnqHuBd-U"
 Regulateur de tension - LM7833 :  
 Regulateur de tension - LM7805 : 
 Mosfet driver - UCC27325 : 
