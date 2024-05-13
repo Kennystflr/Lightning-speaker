@@ -5,8 +5,9 @@ Prof -  6 * Diodes Schottky : https://fr.farnell.com/stmicroelectronics/1n5817/d
 Prof - 6 * 2000uF : https://fr.farnell.com/panasonic-electronic-components/eeufp1e202/condensateur-2000-f-25v-20/dp/2911622
 Prof - 6 * 6.3uH : "https://fr.farnell.com/bourns/srn6045ta-6r3m/inductance-6-3uh-3-8a-20-aec-q200/dp/2616891"
 
+OK - USB C Power Delivery - Tcpp01-m12 : "https://fr.farnell.com/stmicroelectronics/tcpp01-m12/protec-de-surtension-usb-40-85/dp/3690355"
 OK - Mosfet driver - UCC27325 : "https://www.mouser.fr/ProductDetail/Texas-Instruments/UCC27325DR?qs=eJkN62t4xTUoqsmNiaymWw%3D%3D"
 OK - BMS - BQ25306 : "https://www.mouser.fr/ProductDetail/Texas-Instruments/BQ25306RTER?qs=81r%252BiQLm7BROlYIxj7RTtQ%3D%3D"
 
 ToBuy - Mosfet - Si2304 : "https://www.vishay.com/en/product/65175/"
-Prof - USB C Power Delivery - Tcpp01-m12 : "https://fr.farnell.com/stmicroelectronics/tcpp01-m12/protec-de-surtension-usb-40-85/dp/3690355"
+
