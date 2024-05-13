@@ -1,10 +1,8 @@
 Batteries 18650 : "https://www.nkon.nl/fr/samsung-inr18650-25r-with-u-tags.html?srsltid=AfmBOoq5qeEpbhHpFQUx_pw4D_jy1cSAoZQ30zU4rYdqalyjseHnqHuBd-U"
-Regulateur de tension - LM7833 :  
-Regulateur de tension - LM7805 : 
-Mosfet driver - UCC27325 : 
-Mosfet - Si2304 :
-USB C Power Delivery - Tcpp01-m12 : 
-BMS - BQ25306 : 
+Mosfet driver - UCC27325 : "https://www.mouser.fr/ProductDetail/Texas-Instruments/UCC27325DR?qs=eJkN62t4xTUoqsmNiaymWw%3D%3D"
+Mosfet - Si2304 : "https://www.vishay.com/en/product/65175/"
+USB C Power Delivery - Tcpp01-m12 : "https://fr.farnell.com/stmicroelectronics/tcpp01-m12/protec-de-surtension-usb-40-85/dp/3690355"
+BMS - BQ25306 : "https://www.mouser.fr/ProductDetail/Texas-Instruments/BQ25306RTER?qs=81r%252BiQLm7BROlYIxj7RTtQ%3D%3D"
 recptacle usb_c : https://www.mouser.fr/ProductDetail/GCT/USB4151-GF-C?qs=KUoIvG%2F9IlY4HaJSFPtBdg%3D%3D
 connecteur Jack : https://www.conrad.fr/fr/p/jack-6-35-mm-embase-femelle-verticale-rean-av-nys232-nombre-de-poles-num-3-stereo-noir-1-pc-s-715583.html?utm_source=google&utm_medium=surfaces&utm_campaign=shopping-feed&utm_content=free-google-shopping-clicks&utm_term=715583&gad_source=1&gclid=Cj0KCQjw2a6wBhCVARIsABPeH1tyLJ4nvV0Gk4DcLjPpQbVDYn8D99ut9JAPx8yvkQpiMLyMlMw-X3waAnFhEALw_wcB
 10 * Diodes Schottky : https://fr.farnell.com/stmicroelectronics/1n5817/diode-schottky-1a-20v/dp/9801197
