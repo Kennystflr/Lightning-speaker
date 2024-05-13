@@ -5,3 +5,6 @@ Mosfet driver - UCC27325 :
 Mosfet - Si2304 :
 USB C Power Delivery - Tcpp01-m12 : 
 BMS - BQ25306 : 
+recptacle usb_c : https://www.mouser.fr/ProductDetail/GCT/USB4151-GF-C?qs=KUoIvG%2F9IlY4HaJSFPtBdg%3D%3D
+connecteur Jack : https://www.conrad.fr/fr/p/jack-6-35-mm-embase-femelle-verticale-rean-av-nys232-nombre-de-poles-num-3-stereo-noir-1-pc-s-715583.html?utm_source=google&utm_medium=surfaces&utm_campaign=shopping-feed&utm_content=free-google-shopping-clicks&utm_term=715583&gad_source=1&gclid=Cj0KCQjw2a6wBhCVARIsABPeH1tyLJ4nvV0Gk4DcLjPpQbVDYn8D99ut9JAPx8yvkQpiMLyMlMw-X3waAnFhEALw_wcB
+10 * Diodes Schottky : https://fr.farnell.com/stmicroelectronics/1n5817/diode-schottky-1a-20v/dp/9801197
