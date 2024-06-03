@@ -1,0 +1,9 @@
+cahier des charges du pojet remplaçant (a pour objectif de tester les differents codes fait lors du projet et le PCB secondary board) : 
+
+Pour tester les LEDs, le potentiomêtre et le bouton de l'encoder, on allume les LEDs une à une, plus ou moins vite selon la valeur du potentiomêtre.
+Le bouton de l'encoder 1 permet d'allumer les LEDs dans l'autre sens.
+
+Pour tester le RGB (même si on n'utilise que 2 LEDs sur 3) et la rotation de l'encoder, on augmente la luminosité de la LED rouge en diminuant celle de la LED 
+bleue de l'encoder 2 lorsque l'encoder 1 tourne dans un sens et inversement lorsqu'il tourne dans l'autre sens.
+
+En bonus, lorsqu'on appuit sur le bouton de l'encoder 1, cela allume ou éteint la LED verte de l'encoder 1.
