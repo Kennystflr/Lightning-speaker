@@ -1,0 +1,8 @@
+../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_bus.h:243:22:LL_AHB1_GRP1_EnableClock	24	static
+../Middlewares/ST/STM32_USBPD_Library/Devices/STM32G4XX/src/usbpd_hw.c:29:15:USBPD_HW_GetUSPDInstance	16	static
+../Middlewares/ST/STM32_USBPD_Library/Devices/STM32G4XX/src/usbpd_hw.c:34:22:USBPD_HW_Init_DMARxInstance	64	static
+../Middlewares/ST/STM32_USBPD_Library/Devices/STM32G4XX/src/usbpd_hw.c:61:6:USBPD_HW_DeInit_DMARxInstance	16	static
+../Middlewares/ST/STM32_USBPD_Library/Devices/STM32G4XX/src/usbpd_hw.c:66:22:USBPD_HW_Init_DMATxInstance	64	static
+../Middlewares/ST/STM32_USBPD_Library/Devices/STM32G4XX/src/usbpd_hw.c:91:6:USBPD_HW_DeInit_DMATxInstance	16	static
+../Middlewares/ST/STM32_USBPD_Library/Devices/STM32G4XX/src/usbpd_hw.c:96:10:USBPD_HW_GetRpResistorValue	16	static
+../Middlewares/ST/STM32_USBPD_Library/Devices/STM32G4XX/src/usbpd_hw.c:102:6:USBPD_HW_SetFRSSignalling	16	static

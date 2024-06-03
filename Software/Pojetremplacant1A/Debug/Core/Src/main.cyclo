@@ -1,0 +1,12 @@
+../Core/Src/main.c:80:1:__io_putchar	1
+../Core/Src/main.c:86:5:volume	4
+../Core/Src/main.c:96:5:Read_Potentiometer	2
+../Core/Src/main.c:106:6:HAL_GPIO_EXTI_Callback	12
+../Core/Src/main.c:153:5:main	3
+../Core/Src/main.c:234:6:SystemClock_Config	3
+../Core/Src/main.c:281:13:MX_ADC1_Init	4
+../Core/Src/main.c:349:13:MX_TIM2_Init	6
+../Core/Src/main.c:408:13:MX_TIM3_Init	7
+../Core/Src/main.c:471:13:MX_USART2_UART_Init	5
+../Core/Src/main.c:519:13:MX_GPIO_Init	1
+../Core/Src/main.c:584:6:Error_Handler	1

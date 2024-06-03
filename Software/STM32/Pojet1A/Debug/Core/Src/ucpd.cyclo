@@ -1,0 +1,15 @@
+../Drivers/CMSIS/Include/core_cm4.h:1667:26:__NVIC_GetPriorityGrouping	1
+../Drivers/CMSIS/Include/core_cm4.h:1679:22:__NVIC_EnableIRQ	2
+../Drivers/CMSIS/Include/core_cm4.h:1809:22:__NVIC_SetPriority	2
+../Drivers/CMSIS/Include/core_cm4.h:1856:26:NVIC_EncodePriority	2
+../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_bus.h:451:22:LL_AHB2_GRP1_EnableClock	1
+../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_bus.h:935:22:LL_APB1_GRP2_EnableClock	1
+../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_dma.h:628:22:LL_DMA_SetDataTransferDirection	1
+../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_dma.h:683:22:LL_DMA_SetMode	1
+../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_dma.h:734:22:LL_DMA_SetPeriphIncMode	1
+../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_dma.h:785:22:LL_DMA_SetMemoryIncMode	1
+../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_dma.h:837:22:LL_DMA_SetPeriphSize	1
+../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_dma.h:890:22:LL_DMA_SetMemorySize	1
+../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_dma.h:944:22:LL_DMA_SetChannelPriorityLevel	1
+../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_dma.h:1406:22:LL_DMA_SetPeriphRequest	1
+../Core/Src/ucpd.c:28:6:MX_UCPD1_Init	1

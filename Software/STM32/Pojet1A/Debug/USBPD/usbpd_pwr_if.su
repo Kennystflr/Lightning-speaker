@@ -1,0 +1,12 @@
+../USBPD/usbpd_pwr_if.c:115:21:USBPD_PWR_IF_Init	4	static
+../USBPD/usbpd_pwr_if.c:128:21:USBPD_PWR_IF_SupplyReady	24	static
+../USBPD/usbpd_pwr_if.c:163:21:USBPD_PWR_IF_ReadVA	24	static
+../USBPD/usbpd_pwr_if.c:176:21:USBPD_PWR_IF_Enable_VConn	16	static
+../USBPD/usbpd_pwr_if.c:189:21:USBPD_PWR_IF_Disable_VConn	16	static
+../USBPD/usbpd_pwr_if.c:207:6:USBPD_PWR_IF_GetPortPDOs	24	static
+../USBPD/usbpd_pwr_if.c:227:21:USBPD_PWR_IF_SearchRequestedPDO	24	static
+../USBPD/usbpd_pwr_if.c:239:6:USBPD_PWR_IF_AlarmType	16	static
+../USBPD/usbpd_pwr_if.c:250:6:USBPD_PWR_IF_Alarm	4	static
+../USBPD/usbpd_pwr_if.c:263:9:USBPD_PWR_IF_GetVBUSStatus	24	static
+../USBPD/usbpd_pwr_if.c:292:6:USBPD_PWR_IF_UpdateVbusThreshold	16	static
+../USBPD/usbpd_pwr_if.c:303:6:USBPD_PWR_IF_ResetVbusThreshold	16	static
